@@ -1,0 +1,144 @@
+.header {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main {
+  color: white;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: -20px;
+}
+
+.primary {
+  display: flex;
+  justify-content: center;
+  margin-left: 0;
+  padding: 0;
+}
+
+.text, .images{
+  padding: 10px;
+  text-align: center;
+
+}
+
+.website {
+  box-sizing: border-box;
+}
+
+
+.main-heading {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bold;
+  padding-left: 200px;
+  margin-bottom: 0px;
+  padding-top: 40px;
+}
+
+.paragraph, .link {
+  color: #e5e7eb;
+  font-size: 18px;
+  padding-left: 200px;
+  margin-top: 0px;
+  
+}
+.important {
+  display: flex;
+  flex-direction: column;
+
+}
+
+#house {
+  padding-left: 700px;
+
+}
+
+button {
+  background-color: #3882f6;
+  width: 100px;
+  height: 30px;
+  border-radius: 14px;
+  position: absolute;
+  margin-left: 200px;
+
+}
+
+.secondary {
+  background-color: #e5e7eb;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: light;
+  font-family: italic;
+  color: #1f2937;
+  padding-top: 30px;
+}
+
+.thor {
+  font-weight: bold;
+  margin-left: 500px;
+  padding-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+}
+.last {
+background-color: rgb(51, 153, 255);
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+text-align: start;
+}
+
+
+.first-child {
+  color: white;
+  font-size: 30px;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+  padding-left: 50px;
+}
+
+.second-child {
+  color: white;
+  font-size: 15px;
+  padding-top: 0px;
+  margin-top: 0;
+  padding-left: 50px;
+}
+
+.third-child {
+margin-left: 700px;
+position: relative;
+left: -20%;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  color: white;
+  height: 100px;
+  align-items: center;
+}
